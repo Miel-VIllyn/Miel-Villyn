@@ -20,6 +20,8 @@ Making a program that handels creating KPI's to get a better view on the effici√
 
 A minecraft server Autostart and autointegrate application that allows the user to drag in a server.jar file and for it to automaticaly start up or create the server on network command.
 
+MOTD spoofing is used to allow the client to see if a server is starting or if it is offline.
+
 ## 4.Project OSC
 
 Making an easier to use client and server for OSC (Open Sound Controll).
