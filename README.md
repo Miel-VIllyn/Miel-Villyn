@@ -5,7 +5,8 @@
 - 🧑‍💻 I mainly know python
 - 🧑‍💻 learning C#
 - 🧑‍💻 learing Rust
-- 🧑‍💻 planing to learn C, C++, Javascript and JAVA
+- 🧑‍💻 learing C
+- 🧑‍💻 planing to learn C++, Javascript and JAVA
 
 # projects in the working
 ## 1.Project IMU-FBT
