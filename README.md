@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Danktempest69
 - 👀 I’m interested in the cold emptyness of the void called space
-- 🌱 I’m currently a student at KULeuven
+- 🌱 I’m currently a student at Vives
 - Member since March 16 2023
 - 🧑‍💻 I mainly know python
 - 🧑‍💻 learning C#
