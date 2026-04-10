@@ -1,10 +1,10 @@
 - 👋 Hi, I’m Danktempest69
 - 👀 I’m interested in the cold emptyness of the void called space
-- 🌱 I’m currently a student at Vives
+- 🌱 I’m currently a student at Vives (Electronics-ICT Bachelor)
 - Member since March 16 2023
 - 🧑‍💻 I mainly know python
 - 🧑‍💻 learning C#
-- 🧑‍💻 learing Rust
+- 🧑‍💻 learing Rust ⏸️
 - 🧑‍💻 learing C
 - 🧑‍💻 planing to learn C++, Javascript and JAVA
 
