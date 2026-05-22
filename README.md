@@ -1,11 +1,12 @@
 - 👋 Hi, I’m Danktempest69
 - 👀 I’m interested in the cold emptyness of the void called space
+- 📖 I have a bachelors degree in Energymanagement
 - 🌱 I’m currently a student at Vives (Electronics-ICT Bachelor)
 - Member since March 16 2023
 - 🧑‍💻 I mainly know python
-- 🧑‍💻 learning C#
-- 🧑‍💻 learing Rust ⏸️
 - 🧑‍💻 learing C
+- 🧑‍💻 learning C# ⏸️
+- 🧑‍💻 learing Rust ⏸️
 - 🧑‍💻 planing to learn C++, Javascript and JAVA
 
 # projects in the working
