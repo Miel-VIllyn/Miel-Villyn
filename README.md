@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Danktempest69
+- 👋 Hi, I’m Miel Villyn
 - 👀 I’m interested in the cold emptyness of the void called space
 - 📖 I have a bachelors degree in Energymanagement
 - 🌱 I’m currently a student at Vives (Electronics-ICT Bachelor)
