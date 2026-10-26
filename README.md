@@ -1,7 +1,6 @@
 ```python
 import datetime
 from enum import Enum
-from dataclasses import dataclass
 
 
 class Progress(str, Enum):
@@ -11,7 +10,6 @@ class Progress(str, Enum):
     FINISHED = "Finished"
     ABANDONED = "Abandoned"
 
-@dataclass
 class About_me:
     name: str = "Miel Villyn"
 
