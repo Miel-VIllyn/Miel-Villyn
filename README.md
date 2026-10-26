@@ -48,7 +48,7 @@ class About_me:
     ]
 
 # Projects
-class IMU-FBT:
+class IMU_FBT:
   def __init__(self, *args, **kwargs):
     """
     A fully custom implimentation of Full Body Tracking for VRChat using IMU's (Inerial Mesurement Unit)
