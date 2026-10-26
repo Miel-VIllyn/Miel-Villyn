@@ -4,46 +4,62 @@ from enum import Enum
 
 
 class Progress(str, Enum):
-    ONGOING = "Ongoing"
-    HALTED = "Halted"
-    FINISHING = "Finishing"
-    FINISHED = "Finished"
-    ABANDONED = "Abandoned"
+  ONGOING = "Ongoing"
+  HALTED = "Halted"
+  FINISHING = "Finishing"
+  FINISHED = "Finished"
+  ABANDONED = "Abandoned"
 
 class About_me:
-    name: str = "Miel Villyn"
+  name: str = "Miel Villyn"
 
-    interests: list[str] = [
-        "Space",
-        "Learning",
-        "Coding",
-    ]
+  interests: list[str] = [
+      "Space",
+      "Learning",
+      "Coding",
+  ]
 
-    degrees: list[str] = [
-        "Bachelor Energymanagement",
-    ]
+  degrees: list[str] = [
+      "Bachelor Energymanagement",
+  ]
 
-    degrees_in_progress: list[str] = [
-        "Bachelor Electronics-ICT",
-    ]
+  degrees_in_progress: list[str] = [
+      "Bachelor Electronics-ICT",
+  ]
 
-    member_since: datetime.datetime = datetime.datetime(2023, 3, 16)
+  member_since: datetime.datetime = datetime.datetime(2023, 3, 16)
 
-    known: list[str] = [
-        "Python",
-    ]
+  known: list[str] = [
+      "Python",
+  ]
 
-    learning: list[tuple[str, Progress]] = [
-        ("C", Progress.ONGOING),
-        ("C#", Progress.HALTED),
-        ("Rust", Progress.HALTED),
-    ]
+  learning: list[tuple[str, Progress]] = [
+      ("C", Progress.ONGOING),
+      ("C#", Progress.HALTED),
+      ("Rust", Progress.HALTED),
+  ]
 
-    future_plans: list[str] = [
-        "C++",
-        "JavaScript",
-        "Java",
-    ]
+  future_plans: list[str] = [
+      "C++",
+      "JavaScript",
+      "Java",
+  ]
+
+  def __init__(self) -> None:
+    pass
+
+  def __repr__(self) -> str:
+    return f"- 👋 Hi, I'm {self.name}\n" + \
+    f"{"\n".join([f"- 👀 I have an intrest in {interest}" for interest in self.interests])}\n" + \
+    f"{"\n".join([f"- 📖 I have a {degree}" for degree in self.degrees])}\n" + \
+    f"{"\n".join([f"- 🌱 I'm currently attempting a {degree}" for degree in self.degrees_in_progress])}\n" + \
+    f"- ⌚ I have been a member since {self.member_since.date()}\n" + \
+    f"{"\n".join([f"- 💻 I know {know}" for know in self.known])}\n" + \
+    f"{"\n".join([f"- 💻 I'm learning {learn}, this i currently '{state.value}'" for learn, state in self.learning])}\n"
+  
+  def __str__(self) -> str:
+    return self.__repr__()
+    
 
 # Projects
 class IMU_FBT:
@@ -101,6 +117,9 @@ class Home_energy_mannager:
 
   def status(self):
     return Progress.HALTED
+
+
+print(About_me())
 ```
 
 <!---
